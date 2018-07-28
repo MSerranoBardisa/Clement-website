@@ -1,0 +1,58 @@
+
+/*Container width*/
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 900px;
+    }
+}
+
+
+/*Picture*/
+
+.profile_picture {
+	max-height: 200px;
+}
+
+
+/*Titles*/
+
+h1 {
+	font-size: 2.3em;
+	padding-bottom: 30px;
+}
+
+h2 {
+	font-size: 1.7em;
+	padding-bottom: 8px;
+}
+
+
+/*Links*/
+
+body{
+	--grey: rgb(100,100,100);
+}
+
+.link {
+	color: var(--grey);
+	text-decoration: none;
+}
+
+.link:hover {
+	color: var(--grey);
+}
+
+.link-pdf {
+	color: var(--grey);
+	font-weight: bold;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.link-pdf:hover {
+	color: var(--grey);
+}
+
+
+
